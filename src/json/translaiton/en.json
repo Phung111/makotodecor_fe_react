@@ -1,0 +1,193 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "pagination": {
+    "items": "Showing",
+    "of": "of"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "management": "Management"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Login",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register now"
+    },
+    "register": {
+      "title": "Register",
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "registerButton": "Register",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Login now"
+    }
+  },
+  "product": {
+    "title": "Products",
+    "name": "Product Name",
+    "code": "Product Code",
+    "description": "Description",
+    "price": "Price",
+    "size": "Size",
+    "color": "Color",
+    "category": "Category",
+    "status": "Status",
+    "discount": "Discount",
+    "baseSold": "Sold",
+    "updated": "Last Updated",
+    "image": "Image",
+    "defaultImage": "Default Image",
+    "otherImages": "Other Images",
+    "detailImages": "Detail Images",
+    "colorImage": "Color Image",
+    "addPrice": "Add Price",
+    "addColor": "Add Color",
+    "removeImage": "Remove Image",
+    "removeRow": "Remove Row",
+    "uploadImage": "Upload Image",
+    "statusOptions": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "form": {
+      "basicInfo": "Basic Information",
+      "priceConfig": "Price Configuration",
+      "colorConfig": "Color Configuration",
+      "createTitle": "Create Product",
+      "editTitle": "Edit Product",
+      "viewTitle": "Product Details",
+      "namePlaceholder": "Enter product name",
+      "descriptionPlaceholder": "Enter product description...",
+      "sizePlaceholder": "Size",
+      "pricePlaceholder": "Price",
+      "discountPlaceholder": "Enter discount %",
+      "baseSoldPlaceholder": "Enter sold quantity",
+      "colorNamePlaceholder": "Color name",
+      "categoryPlaceholder": "Select category",
+      "statusPlaceholder": "Select status",
+      "requiredName": "Please enter product name",
+      "requiredCategory": "Please select category",
+      "requiredStatus": "Please select status",
+      "requiredDefaultImage": "Please upload default image for product",
+      "createSuccess": "Product created successfully!",
+      "updateSuccess": "Product updated successfully!",
+      "createError": "Error occurred while creating product",
+      "updateError": "Error occurred while updating product"
+    }
+  },
+  "management": {
+    "title": "Management",
+    "products": "Products",
+    "orders": "Orders",
+    "users": "Users",
+    "images": "Images",
+    "config": "Configuration",
+    "menu": {
+      "productOperator": "Product Management",
+      "product": "Product List",
+      "userOperator": "User Management",
+      "user": "User List",
+      "orderOperator": "Order Management",
+      "order": "Order List",
+      "imageOperator": "Image Management",
+      "imageBanner": "Banner",
+      "imageProduct": "Product",
+      "imageAdvertise": "Advertisement",
+      "configOperator": "Configuration Management",
+      "configCategory": "Category List"
+    }
+  },
+  "order": {
+    "id": "Order ID",
+    "customer": "Customer",
+    "total": "Total",
+    "status": "Status",
+    "updated": "Last Updated"
+  },
+  "user": {
+    "name": "Full Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "updated": "Last Updated"
+  },
+  "home": {
+    "title": "Home",
+    "banner": {
+      "title": "Banner",
+      "bestSeller": "Best Seller",
+      "discount": "Discount",
+      "introduce": "Introduction"
+    },
+    "category": {
+      "title": "Product Categories"
+    },
+    "products": {
+      "title": "Featured Products"
+    }
+  },
+  "footer": {
+    "title": "Footer",
+    "about": "About Us",
+    "contact": "Contact",
+    "support": "Support",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "header": {
+    "title": "Header",
+    "search": "Search products...",
+    "cart": "Cart",
+    "account": "Account"
+  },
+  "modal": {
+    "title": "Modal",
+    "close": "Close"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "items": "items"
+  }
+}

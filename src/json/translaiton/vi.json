@@ -1,0 +1,193 @@
+{
+  "common": {
+    "loading": "Đang tải...",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "create": "Tạo mới",
+    "update": "Cập nhật",
+    "view": "Xem",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "reset": "Đặt lại",
+    "submit": "Gửi",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "close": "Đóng",
+    "confirm": "Xác nhận",
+    "yes": "Có",
+    "no": "Không",
+    "success": "Thành công",
+    "error": "Lỗi",
+    "warning": "Cảnh báo",
+    "info": "Thông tin"
+  },
+  "pagination": {
+    "items": "Hiển thị",
+    "of": "của"
+  },
+  "navigation": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ",
+    "management": "Quản lý"
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng nhập",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "remember": "Ghi nhớ đăng nhập",
+      "forgotPassword": "Quên mật khẩu?",
+      "loginButton": "Đăng nhập",
+      "noAccount": "Chưa có tài khoản?",
+      "registerLink": "Đăng ký ngay"
+    },
+    "register": {
+      "title": "Đăng ký",
+      "fullName": "Họ và tên",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "registerButton": "Đăng ký",
+      "hasAccount": "Đã có tài khoản?",
+      "loginLink": "Đăng nhập ngay"
+    }
+  },
+  "product": {
+    "title": "Sản phẩm",
+    "name": "Tên sản phẩm",
+    "code": "Mã sản phẩm",
+    "description": "Mô tả",
+    "price": "Giá",
+    "size": "Kích thước",
+    "color": "Màu sắc",
+    "category": "Danh mục",
+    "status": "Trạng thái",
+    "discount": "Giảm giá",
+    "baseSold": "Đã bán",
+    "updated": "Ngày cập nhật cuối",
+    "image": "Hình ảnh",
+    "defaultImage": "Ảnh mặc định",
+    "otherImages": "Ảnh khác",
+    "detailImages": "Ảnh chi tiết",
+    "colorImage": "Ảnh màu",
+    "addPrice": "Thêm giá",
+    "addColor": "Thêm màu",
+    "removeImage": "Xóa ảnh",
+    "removeRow": "Xóa dòng",
+    "uploadImage": "Tải ảnh",
+    "statusOptions": {
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "form": {
+      "basicInfo": "Thông tin cơ bản",
+      "priceConfig": "Cấu hình giá",
+      "colorConfig": "Cấu hình màu",
+      "createTitle": "Tạo sản phẩm",
+      "editTitle": "Chỉnh sửa sản phẩm",
+      "viewTitle": "Chi tiết sản phẩm",
+      "namePlaceholder": "Nhập tên sản phẩm",
+      "descriptionPlaceholder": "Nhập mô tả sản phẩm...",
+      "sizePlaceholder": "Kích thước",
+      "pricePlaceholder": "Giá",
+      "discountPlaceholder": "Nhập % giảm giá",
+      "baseSoldPlaceholder": "Nhập số lượng đã bán",
+      "colorNamePlaceholder": "Tên màu",
+      "categoryPlaceholder": "Chọn danh mục",
+      "statusPlaceholder": "Chọn trạng thái",
+      "requiredName": "Vui lòng nhập tên sản phẩm",
+      "requiredCategory": "Vui lòng chọn danh mục",
+      "requiredStatus": "Vui lòng chọn trạng thái",
+      "requiredDefaultImage": "Vui lòng tải ảnh mặc định cho sản phẩm",
+      "createSuccess": "Tạo sản phẩm thành công!",
+      "updateSuccess": "Cập nhật sản phẩm thành công!",
+      "createError": "Có lỗi xảy ra khi tạo sản phẩm",
+      "updateError": "Có lỗi xảy ra khi cập nhật sản phẩm"
+    }
+  },
+  "management": {
+    "title": "Quản lý",
+    "products": "Sản phẩm",
+    "orders": "Đơn hàng",
+    "users": "Người dùng",
+    "images": "Hình ảnh",
+    "config": "Cấu hình",
+    "menu": {
+      "productOperator": "Quản lý sản phẩm",
+      "product": "Danh sách sản phẩm",
+      "userOperator": "Quản lý người dùng",
+      "user": "Danh sách người dùng",
+      "orderOperator": "Quản lý đơn hàng",
+      "order": "Danh sách đơn hàng",
+      "imageOperator": "Quản lý hình ảnh",
+      "imageBanner": "Banner",
+      "imageProduct": "Sản phẩm",
+      "imageAdvertise": "Quảng cáo",
+      "configOperator": "Quản lý cấu hình",
+      "configCategory": "Danh sách danh mục"
+    }
+  },
+  "order": {
+    "id": "Mã đơn hàng",
+    "customer": "Khách hàng",
+    "total": "Tổng tiền",
+    "status": "Trạng thái",
+    "updated": "Ngày cập nhật cuối"
+  },
+  "user": {
+    "name": "Họ và tên",
+    "email": "Email",
+    "role": "Vai trò",
+    "status": "Trạng thái",
+    "updated": "Ngày cập nhật cuối"
+  },
+  "home": {
+    "title": "Trang chủ",
+    "banner": {
+      "title": "Banner",
+      "bestSeller": "Bán chạy nhất",
+      "discount": "Khuyến mãi",
+      "introduce": "Giới thiệu"
+    },
+    "category": {
+      "title": "Danh mục sản phẩm"
+    },
+    "products": {
+      "title": "Sản phẩm nổi bật"
+    }
+  },
+  "footer": {
+    "title": "Footer",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "support": "Hỗ trợ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng"
+  },
+  "header": {
+    "title": "Header",
+    "search": "Tìm kiếm sản phẩm...",
+    "cart": "Giỏ hàng",
+    "account": "Tài khoản"
+  },
+  "modal": {
+    "title": "Modal",
+    "close": "Đóng"
+  },
+  "pagination": {
+    "previous": "Trước",
+    "next": "Tiếp",
+    "page": "Trang",
+    "of": "của",
+    "items": "mục"
+  }
+}
