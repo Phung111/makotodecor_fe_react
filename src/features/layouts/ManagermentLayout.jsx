@@ -131,7 +131,8 @@ export default function ManagermentLayout() {
           <img
             src='https://res.cloudinary.com/cloudinarymen/image/upload/v1748196437/makotodecor/backgrounds/LOGO_lolbry.png'
             alt='Makoto Decor Logo'
-            style={{ height: 32 }}
+            style={{ height: 32, cursor: 'pointer' }}
+            onClick={() => navigate('/')}
           />
           <nav className='flex items-center gap-2 text-sm text-black/70 ml-4'>
             {breadcrumb.map((item, idx) => (

@@ -1,10 +1,12 @@
 import { CircleUserRound, User, Settings, LogOut, Heart, Package, LogIn } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { setModalUserInfo } from '../../../../slice/modalSlice';
 
 export default function UserDropdown({ iconClass }) {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
   const userIconRef = useRef(null);
@@ -35,8 +37,8 @@ export default function UserDropdown({ iconClass }) {
         dispatch(setModalUserInfo(true));
         break;
       case 'orders':
-        // Navigate to orders page
-        console.log('Navigate to orders');
+        // Navigate to management page
+        navigate('/managerment');
         break;
       case 'wishlist':
         // Navigate to wishlist page
