@@ -1,5 +1,12 @@
-const BACKEND_URL = import.meta.env.BACKEND_URL || 'http://localhost:8080';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8080';
 const SERVER_API = BACKEND_URL + '/v1/api';
+
+// Debug: Kiểm tra biến environment
+console.log('Environment variables:', {
+  VITE_BACKEND_URL: import.meta.env.VITE_BACKEND_URL,
+  BACKEND_URL,
+  SERVER_API,
+});
 
 export const HTTP_STATUS = Object.freeze({
   IDLE: 'IDLE',
