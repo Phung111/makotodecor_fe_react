@@ -16,7 +16,7 @@ import {
   Star,
   Calendar,
   Tag,
-} from '`lucide-react`';
+} from 'lucide-react';
 import Banner from './Banner';
 import Category from './Category';
 import Products from './Products';
